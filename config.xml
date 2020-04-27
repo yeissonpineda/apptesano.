@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <name>Nombre de la App</name>
+
+  <description>
+      Descripción de la App
+  </description>
+
+  <author href="https://www.midominio.com" email="micorreo@uniminuto.edu.co">
+      Nombre del creador
+  </author>
+  
+  <icon src="icon.png" />
+  
+  <splash src="img/splash.png" width="320" height="480" />
+
+</widget>
