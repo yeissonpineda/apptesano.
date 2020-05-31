@@ -1,45 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Nombre de la App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/themes/app.min.css">
-        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
-        <link rel="stylesheet" href="css/jquery.mobile.structure.min.css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.mobile.min.js"></script>
-        <script src="cordova.js"></script>
-    </head>
-    <body>
-        <div data-role="page" id="primera">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nombre de la App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/themes/app.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile.min.js"></script>
+    <script src="cordova.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="primera">
+      <div data-role="header" data-positon="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#" data-icon="carat-l"></a></li>
+            <li><a href="#" data-icon="carat-r"></a></li>
+          </ul>
+        </div>
+        <!-- /navbar -->
+      </div>
+      <!-- /header -->
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
+      <div role="main" class="ui-content">
+        <p>Contenido de la página</p>
+      </div>
+      <!-- /content -->
 
-            <div role="main" class="ui-content">
-                <p>Contenido de la página</p>
-            </div><!-- /content -->
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#" data-icon="search"></a></li>
+            <li><a href="#" data-icon="home"></a></li>
+            <li><a href="#" data-icon="heart"></a></li>
+          </ul>
+        </div>
+        <!-- /navbar -->
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
 
-            <div data-role="footer" data-position="fixed">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
-        </div><!-- /page -->
-        
-        <div data-role="page" id="segunda">
+    <div data-role="page" id="segunda">
+      <div data-role="header">
+        <h1>Título de la página</h1>
+      </div>
+      <!-- /header -->
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
+      <div role="main" class="ui-content">
+        <p>Contenido de la página.</p>
+      </div>
+      <!-- /content -->
 
-            <div role="main" class="ui-content">
-                <p>Contenido de la página.</p>
-            </div><!-- /content -->
-
-            <div data-role="footer">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
-        </div><!-- /page -->
-    </body>
+      <div data-role="footer">
+        <h4>Footer de la página.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
 </html>
